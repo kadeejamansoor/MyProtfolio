@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ba85ad-2ad7-4b4c-8e93-560fc9146292" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assest/aboutMee.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    <list default="true" id="f9ba85ad-2ad7-4b4c-8e93-560fc9146292" name="Changes" comment="updated bg,colors and images">
+      <change afterPath="$PROJECT_DIR$/assest/git.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/in.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +60,24 @@
       <option name="presentableId" value="Default" />
       <updated>1693546185161</updated>
       <workItem from="1693546186183" duration="8847000" />
-      <workItem from="1694008581724" duration="4147000" />
+      <workItem from="1694008581724" duration="6839000" />
     </task>
+    <task id="LOCAL-00001" summary="updated bg,colors and images">
+      <option name="closed" value="true" />
+      <created>1694013534621</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694013534621</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated bg,colors and images" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated bg,colors and images" />
   </component>
 </project>
