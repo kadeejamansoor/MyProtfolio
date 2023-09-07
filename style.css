@@ -580,6 +580,8 @@ contact form.textarea-field textarea:valid~.focus{
 .contact form .btn-box.btns .btn{
     cursor: pointer;
 }
+
+/*........................................fluter...................................*/
 .footer {
     display: grid;
     place-items: center;
@@ -616,57 +618,70 @@ contact form.textarea-field textarea:valid~.focus{
 .copyright a {
     color: #22cf91;
 }
-.gallery {
-    padding-top: var(--main-padding-top);
-    padding-bottom: var(--main-padding-bottom);
-    position: relative;
-    background-color: var(--second-bg-color);
-}
-.gallery .main-title{
-    text-align: center;
-    font: var(--p-font);
-    font-size: 5rem;
-}
-.gallery .container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 30px;
-}
-.gallery .box {
-    padding: 15px;
-    background-color: var(--second-bg-color);
-    box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%), 0px 2px 4px 0px rgb(0 0 0 / 12%);
-}
-.gallery .box .image {
-    position: relative;
-    overflow: hidden;
-}
-.gallery .box .image::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(255 255 255 / 20%);
-    width: 0;
-    height: 0;
-    opacity: 0;
-    z-index: 2;
-}
-.gallery .box .image:hover::before {
-    animation: flashing 0.7s;
-}
-.gallery .box img {
-    max-width: 100%;
-    transition: var(--main-transition);
-}
-.gallery .box .image:hover img {
-    transform: rotate(5deg) scale(1.1);
-}
-.container{
-    background:linear-gradient(45deg, blueviolet, lightgreen);
-    padding:15px 9%;
+/*...............................gallery......................................*/
+.gallery{
+    background: linear-gradient(45deg, #043e56, #313336);
     padding-bottom: 100px;
+    height: 75vh;
+    width: 80vw;
+}
+
+.gallery *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallery .body{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(to left, #0916b0, #0a1acf);
+
+}
+.wrapper{
+    width: 200px;
+    height: 230px;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: Anim 15s linear infinite;
+    left: 700px;
+    top: 25vh;
+}
+@keyframes Anim {
+    0%{
+        transform: perspective(1000px) rotateY(0);
+    }
+    100%{
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+.wrapper span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(45deg * var(--i))) translateZ(310px);
+}
+.wrapper span img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px solid #fff;
+    transition: 0.3s;
+}
+.wrapper span:hover img{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #3a86ff,
+    0 0 25px #27ae60,
+    0 0 40px #3a86ff,
+    0 0 70px #27ae60,
+    0 0 100px -30px #3a86ff,
+    0 0 125px -50px #27ae60;
 }
 
 .container .heading{
@@ -731,6 +746,7 @@ contact form.textarea-field textarea:valid~.focus{
         padding:20px;
     }
 }
+/*..............................Assiments..........................*/
 .assignment{
     background:linear-gradient(45deg, blueviolet, lightgreen);
     padding:15px 9%;
