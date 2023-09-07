@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ba85ad-2ad7-4b4c-8e93-560fc9146292" name="Changes" comment="updated bg,colors and images">
-      <change afterPath="$PROJECT_DIR$/assest/git.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/in.png" afterDir="false" />
+    <list default="true" id="f9ba85ad-2ad7-4b4c-8e93-560fc9146292" name="Changes" comment="updated colors and images">
+      <change afterPath="$PROJECT_DIR$/assest/gallery/IMG_3708.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/gallery/IMG_3709.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/gallery/Screenshot 2023-07-24 134226.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/gallery/Screenshot 2023-07-24 173849.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/gallery/WhatsApp Image 2023-02-16 at 3.49.13 PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/gallery/WhatsApp Image 2023-04-09 at 9.48.43 PM.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/My Protfolio Website/assest",
+    "last_opened_file_path": "E:/My Protfolio Website/assest/gallery",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -48,6 +53,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\My Protfolio Website\assest\gallery" />
       <recent name="E:\My Protfolio Website\assest" />
     </key>
   </component>
@@ -60,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693546185161</updated>
       <workItem from="1693546186183" duration="8847000" />
-      <workItem from="1694008581724" duration="6839000" />
+      <workItem from="1694008581724" duration="9869000" />
     </task>
     <task id="LOCAL-00001" summary="updated bg,colors and images">
       <option name="closed" value="true" />
@@ -70,7 +76,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694013534621</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated colors and images">
+      <option name="closed" value="true" />
+      <created>1694021357014</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694021357014</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated bg,colors and images" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated bg,colors and images" />
+    <MESSAGE value="updated colors and images" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated colors and images" />
   </component>
 </project>
