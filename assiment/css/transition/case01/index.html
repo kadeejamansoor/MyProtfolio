@@ -1,10 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>CSS Transitions Assignment 01</title>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />    <link rel="stylesheet" href="fontawesome.min.css">
+    <style>
+        section {
+            position: relative;
+            width: 250px;
+            height: 400px;
+            left: -200px;
+            top: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        section > div {
+            position: relative;
+            color: white;
+            font-size: 20px;
+            height: 50px;
+            left: 0;
+            background-color: purple;
+
+            transition: all 4s;
+        }
+
+        section > div:hover {
+            left: 200px;
+            transition: all 4s;
+            background-color: purple;
+        }
+
+        section > div > i {
+            position: absolute;
+            top: 15px;
+            bottom: 0;
+            right: 15px;
+            margin: auto;
+        }
+
+        section > div > p {
+            margin-left: 40px;
+        }
+
+
+    </style>
+    <link rel="stylesheet" href="font-awsome/css/fontawesome.min.css">
 </head>
 <body>
-$END$
+<section>
+    <div><p> Menu One</p><i class="fa-solid fa-address-book" style="color: #ffffff;"></i></div>
+    <div><p> Menu Two</p><i class="fa-solid fa-truck-medical" style="color: #ffffff;"></i></div>
+    <div><p> Menu Three</p><i class="fa-sharp fa-regular fa-gear" style="color: #ffffff;"></i></div>
+    <div><p> Menu Four</p><i class="fa-solid fa-bars" style="color: #ffffff;"></i></div>
+    <div><p> Menu Five</p><i class="fa-sharp fa-solid fa-cart-plus" style="color: #ffffff;"></i></div>
+</section>
 </body>
 </html>

@@ -6,6 +6,10 @@
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
 }
+* {
+    scroll-behavior: smooth;
+}
+
 
 :root {
     --bg-color: #243A73;
@@ -72,7 +76,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url("Assests/Home.png") no-repeat;
+   /*background: url("Assests/Home.png") no-repeat;*/
     background-size: cover;
     background-position: center;
 }
@@ -422,6 +426,7 @@ span {
 
 .services-box:hover a {
     color: #8b8a8f;
+
 }
 .skills {
     min-height: auto;
@@ -482,7 +487,7 @@ span {
 }
 .skills-content .progress .bar span{
     display: block;
-    height: 100%;
+    height: 200%;
     border-radius: .3rem;
     background: #495bff;
 }
@@ -565,7 +570,7 @@ span {
 .contact form .input-box .input-field input:focus~.focus,
 .contact form .input-box .input-field input:valid~.focus,
 .contact form.textarea-field textarea:focus~.focus,
-contact form.textarea-field textarea:valid~.focus{
+.contact form.textarea-field textarea:valid~.focus{
     width: 100%;
 }
 
@@ -748,7 +753,7 @@ contact form.textarea-field textarea:valid~.focus{
 }
 /*..............................Assiments..........................*/
 .assignment{
-    background:linear-gradient(45deg, blueviolet, lightgreen);
+    background:linear-gradient(45deg, #00ffd0, #0b1cff);
     padding:15px 9%;
     padding-bottom: 100px;
 }
@@ -824,4 +829,129 @@ contact form.textarea-field textarea:valid~.focus{
     }
 }
 
+    /*...........................cetificate..............*/
+.slide-slider {
+    height: 150px; /* Set the desired height */
+    width: 200px; /* Set the desired width */
+    display: grid;
+    place-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
 
+.slider img {
+    height: 150px; /* Set the desired height */
+    width: 200px; /* Set the desired width */
+    transition: transform 1s;
+}
+
+.image-slider {
+    display: grid;
+    place-items: center;
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+    width: 100%;
+}
+
+.image-slider-track {
+    display: flex;
+    width: calc(200px * 12);
+    animation: play 40s linear infinite;
+}
+
+@keyframes play {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 6));
+    }
+}
+
+.image-slider::before,
+.image-slider::after {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    content: '';
+    height: 100%;
+    width: 15%;
+    z-index: 2;
+    position: absolute;
+}
+
+.image-slider::before {
+    left: 0;
+    top: 0;
+}
+
+.image-slider::after {
+    right: 0;
+    top: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+img:hover {
+    transform: translateZ(20px);
+}
+.animated-button {
+    position: relative;
+    display: inline-block;
+    padding: 12px 36px;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(to right, #024f91, #028eff);
+    transition: all 0.4s ease-out;
+    cursor: pointer;
+}
+
+/* When the button is hovered over, change the background to a pink-to-purple gradient, add a 3px solid border in a light purple color, and add a box shadow with a blur radius of 40px in a darker purple color. */
+.animated-button:hover {
+    background-image: linear-gradient(to right, #00d9ff, #024e91);
+    border: 3px solid #9d9df7;
+    box-shadow: 0 0 40px #024d91;
+}
+
+/* Add an invisible element behind the button that has a purple-to-dark-purple gradient background and is initially set to 0% width. When the button is hovered over, the element's width will transition to 100%. */
+.animated-button:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-image: linear-gradient(to right, #028dfe, #024d91);
+    z-index: -1;
+    transition: all 0.4s ease-out;
+}
+
+/* When the button is hovered over, the invisible element behind it expands to 100% width, revealing its purple-to-dark-purple gradient background. */
+.animated-button:hover:before {
+    width: 100%;
+}
+
+/* Add another invisible element behind the button that has a 3px solid light purple border, a border-radius of 5px, and is initially set to 0% width. When the button is hovered over, the element's width will transition to 100%. */
+.animated-button:after {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 0%;
+    height: 100%;
+    border: 3px solid #028cfd;
+    border-radius: 5px;
+    z-index: -2;
+    transition: all 0.4s ease-out;
+}
+
+/* When the button is hovered over, the invisible element behind it expands to 100% width, creating a border around the button. */
+.animated-button:hover:after {
+    width: 100%;
+}

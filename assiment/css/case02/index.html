@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Case 02</title>
@@ -10,21 +11,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap" rel="stylesheet">
 
     <style>
-        body{
+        body {
             font-size: 1.25rem;
         }
 
-        h1,h2,h3,h4,h5,h6{
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
             color: white;
             text-align: center;
             margin: 0;
         }
 
-        main{
+        main {
             display: flex;
         }
 
-        header{
+        header {
             display: flex;
             height: 80px;
             align-items: center;
@@ -33,40 +39,41 @@
             box-shadow: 3px 2px 9px 1px black;
         }
 
-        header img{
+        /* 2 */
+        header img {
             width: 190px;
             position: relative;
             top: 0;
             left: 10px;
         }
 
-        header>nav{
+        header>nav {
             position: absolute;
             right: 40px;
             top: 0;
         }
 
-        header>nav>ul>li{
+        header>nav>ul>li {
             font-family: 'Raleway', sans-serif;
             font-weight: 600;
             font-size: 18px;
             cursor: pointer;
             display: inline-block;
             padding: 10px;
-            color: rgba(46, 41 ,41, 0.96);
+            color: rgba(46, 41, 41, 0.96);
         }
 
-        .sidebar{
+        .sidebar {
             background-color: rebeccapurple;
             padding: 1rem;
             width: 22vw;
         }
 
-        .content{
+        .content {
             padding: 2rem;
         }
 
-        main>aside:nth-child(1)>nav>ul>li{
+        main>aside:nth-child(1)>nav>ul>li {
             font-family: 'Raleway', sans-serif;
             font-weight: 600;
             font-size: 18px;
@@ -76,26 +83,93 @@
             color: rgba(255, 255, 255, 0.96);
         }
 
-        main>aside:nth-child(2)>section:nth-child(1){
+        main>aside:nth-child(2)>section:nth-child(1) {
             border: 1px solid limegreen;
         }
 
-        main img{
+
+        /* 2 */
+        main img {
             padding: 5px;
-            height: 347px;
+            height: 240px;
         }
 
-        footer{
-            height: 45px;
+        footer {
+            height: 35px;
             padding: 1rem 1.5rem;
-            background-color: darkgray;
+            background-color: #71797E;
+        }
+
+        @media all and (max-width: 320px) {
+            /* ul {
+              display: none;
+              list-style-type: disc;
+              margin-block-start: 1em;
+              margin-block-end: 1em;
+              margin-inline-start: 0px;
+              margin-inline-end: 0px;
+              padding-inline-start: 40px;
+            } */
+
+            /* 2 */
+            main img {
+                padding: 5px;
+                height: 160px;
+            }
+
+            .sidebar {
+                display: none;
+                background-color: rebeccapurple;
+                padding: 1rem;
+                width: 22vw;
+            }
+
+
+            header>nav>ul>li {
+                font-size: 10px;
+                margin-top: 50px;
+                padding: 4px;
+            }
+
+            header img {
+
+                left: 50px;
+            }
+
+            @media all and (min-width: 320px) and (max-width: 475px) {
+                main img {
+                    padding: 5px;
+                    height: 160px;
+                }
+
+                .sidebar {
+                    display: none;
+                    background-color: rebeccapurple;
+                    padding: 1rem;
+                    width: 22vw;
+                }
+
+
+                header>nav>ul>li {
+                    font-size: 10px;
+                    margin-top: 50px;
+                    padding: 4px;
+                }
+
+                header img {
+                    left: 50px;
+                }
+            }
+
+            @media all and (min-width: 768px) {}
         }
     </style>
 
 </head>
+
 <body>
 <header>
-    <img src="../assiment/css/case02/IJSElogo1.png" alt="IJSE LOGO">
+    <img src="IJSElogo1.png" alt="IJSE LOGO">
     <nav>
         <ul>
             <li>Home</li>
@@ -119,24 +193,29 @@
     </aside>
     <aside class="content">
         <section>
-            <img src="../assiment/css/case02/bird.png" alt="Bird 1">
-            <img src="../assiment/css/case02/bird.png" alt="Bird 2">
-            <img src="../assiment/css/case02/bird.png" alt="Bird 3">
+            <img src="bird.png" alt="Bird 1">
+            <img src="bird.png" alt="Bird 2">
+            <img src="bird.png" alt="Bird 3">
         </section>
         <section>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis, sequi. Aspernatur ea eius ex harum impedit ipsum minima necessitatibus! Delectus eos
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis, sequi. Aspernatur ea eius ex
+                harum impedit ipsum minima necessitatibus! Delectus eos
                 nobis, odio quas sequi tempora. Repellendus, soluta voluptate!</p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis, sequi. Aspernatur ea eius ex harum impedit ipsum minima necessitatibus! Delectus eos
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis, sequi. Aspernatur ea eius ex
+                harum impedit ipsum minima necessitatibus! Delectus eos
                 nobis, odio quas sequi tempora. Repellendus, soluta voluptate!</p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis, sequi. Aspernatur ea eius ex harum impedit ipsum minima necessitatibus! Delectus eos
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis, sequi. Aspernatur ea eius ex
+                harum impedit ipsum minima necessitatibus! Delectus eos
                 nobis, odio quas sequi tempora. Repellendus, soluta voluptate!</p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis, sequi. Aspernatur ea eius ex harum impedit ipsum minima necessitatibus! Delectus eos
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis, sequi. Aspernatur ea eius ex
+                harum impedit ipsum minima necessitatibus! Delectus eos
                 nobis, odio quas sequi tempora. Repellendus, soluta voluptate!</p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis, sequi. Aspernatur ea eius ex harum impedit ipsum minima necessitatibus! Delectus eos
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis, sequi. Aspernatur ea eius ex
+                harum impedit ipsum minima necessitatibus! Delectus eos
                 nobis, odio quas sequi tempora. Repellendus, soluta voluptate!</p>
 
         </section>
@@ -147,4 +226,5 @@
 </footer>
 
 </body>
+
 </html>
