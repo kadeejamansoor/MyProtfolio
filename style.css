@@ -840,8 +840,8 @@ span {
 }
 
 .slider img {
-    height: 150px; /* Set the desired height */
-    width: 200px; /* Set the desired width */
+    height: 5px; /* Set the desired height */
+    width: 100px; /* Set the desired width */
     transition: transform 1s;
 }
 
@@ -850,7 +850,7 @@ span {
     place-items: center;
     position: relative;
     overflow: hidden;
-    height: 250px;
+    height: 750px;
     width: 100%;
 }
 
@@ -910,6 +910,9 @@ img:hover {
     background-image: linear-gradient(to right, #024f91, #028eff);
     transition: all 0.4s ease-out;
     cursor: pointer;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 /* When the button is hovered over, change the background to a pink-to-purple gradient, add a 3px solid border in a light purple color, and add a box shadow with a blur radius of 40px in a darker purple color. */

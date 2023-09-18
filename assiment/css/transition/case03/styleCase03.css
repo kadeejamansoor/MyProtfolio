@@ -1,0 +1,58 @@
+/*----------------------------body style-------------------*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url("assest/icons8-delete-48.png") ;
+    background-size:cover;
+}
+/*----------------------------main box style-------------------*/
+.main-div{
+    background: url("assest/cars-lamborghini-wallpaper-preview.jpg") ;
+    background-size:cover;
+    height: 500px;
+    width: 500px;
+    border: 5px solid #495057;
+    box-shadow: 0 1px 10px 5px #212529;
+    position: relative;
+}
+/*----------------------------common style of hidden boxes-------------------*/
+.main-div>div{
+    position: absolute;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    transition: 0.5s;
+}
+/*----------------------------logo div style-------------------*/
+.top-box{
+    top: 0;
+    height: 0;
+}
+/*----------------------------bottom div style-------------------*/
+.down-box{
+    bottom: 0;
+    height: 0;
+    background: rgba( 0, 0, 0, 0.25 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+}
+/*----------------------------logo style-------------------*/
+.top-box>img{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: max-content;
+    height:max-content;
+    z-index: 10;
+}
+/*----------------------------transition-------------------*/
+.main-div:hover .down-box,.main-div:hover .top-box{
+    height: 100%;
+}
