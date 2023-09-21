@@ -832,7 +832,7 @@ span {
     /*...........................cetificate..............*/
 .slide-slider {
     /*height: 150px; !* Set the desired height *!*/
-    width: 200px; /* Set the desired width */
+    width: 95%; /* Set the desired width */
     display: grid;
     place-items: center;
     padding: 15px;
@@ -840,8 +840,8 @@ span {
 }
 
 .slider img {
-    height: 5px; /* Set the desired height */
-    width: 100px; /* Set the desired width */
+    height: 750px; /* Set the desired height */
+    width: 95%; /* Set the desired width */
     transition: transform 1s;
 }
 
@@ -851,12 +851,12 @@ span {
     position: relative;
     overflow: hidden;
     height: 750px;
-    width: 100%;
+    width: 95%;
 }
 
 .image-slider-track {
     display: flex;
-    width: calc(200px * 12);
+    /*width: calc(200px * 12);*/
     animation: play 40s linear infinite;
 }
 

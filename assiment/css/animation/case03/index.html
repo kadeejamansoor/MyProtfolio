@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animation Case 3</title>
+  <meta content="width=device-width initial-scale=1" name="viewport">
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/fonts/css/all.min.css">
+  <link type="favicon" href="assets/images/instagram.png" rel="icon">
+  <style>
+    main{
+      width: 1580px;
+      height: 880px;
+      box-shadow: 1px 3px 5px 1px #666666;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    section{
+      height: 100%;
+      width: 400%;
+      box-shadow: 2px 2px 2px 2px black;
+      display: flex;
+      animation-name: slider-animation;
+      animation-duration: 20s;
+      animation-iteration-count: infinite;
+      /*animation-direction: alternate;*/
+    }
+
+    div{
+      height: 100%;
+      width: 100%;
+    }
+
+    img{
+      height: 100%;
+      width: 100%;
+    }
+
+    @keyframes slider-animation {
+      0%, 15% {
+        transform: translateX(0);
+      }
+      25%, 40% {
+        transform: translateX(-25%);
+      }
+      50%, 65% {
+        transform: translateX(-50%);
+      }
+      75%, 90% {
+        transform: translateX(-75%);
+      }
+      100%{
+        transform: translateX(0);
+      }
+
+    }
+
+
+
+
+  </style>
+</head>
+<body>
+<main>
+  <section>
+    <div>
+      <img src="PXL_20230216_093923524.MP.jpg" alt="1">
+    </div>
+    <div>
+      <img src="PXL_20230216_094115959.MP.jpg" alt="1">
+    </div>
+    <div>
+      <img src="Screenshot 2023-07-24 173136.png" alt="1">
+    </div>
+    <div>
+      <img src="WhatsApp Image 2023-02-16 at 3.49.15 PM.jpeg" alt="1">
+    </div>
+  </section>
+</main>
+</body>
+</html>
