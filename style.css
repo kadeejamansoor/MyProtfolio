@@ -830,69 +830,73 @@ span {
 }
 
     /*...........................cetificate..............*/
-.slide-slider {
-    /*height: 150px; !* Set the desired height *!*/
-    width: 95%; /* Set the desired width */
-    display: grid;
-    place-items: center;
-    padding: 15px;
-    perspective: 100px;
+#marquee {
+    padding: 50px 0px;
+    width: 100%;
 }
 
-.slider img {
-    height: 750px; /* Set the desired height */
-    width: 95%; /* Set the desired width */
-    transition: transform 1s;
-}
-
-.image-slider {
-    display: grid;
-    place-items: center;
-    position: relative;
+#marquee .container {
     overflow: hidden;
-    height: 750px;
-    width: 95%;
+    width: 100%;
 }
 
-.image-slider-track {
+#marquee .pic-container {
     display: flex;
-    /*width: calc(200px * 12);*/
-    animation: play 40s linear infinite;
+    animation: marquee 10s infinite linear;
 }
 
-@keyframes play {
+#marquee .pic-container .pic {
+    flex-basis: 20%;
+    flex-shrink: 0;
+}
+
+#marquee img {
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid rgba(238, 231, 231, 0.9);
+}
+
+@media (max-width: 1024px) {
+    #marquee .pic-container .pic {
+        flex-basis: 25%;
+    }
+}
+
+@media (max-width: 768px) {
+    #marquee .pic-container .pic {
+        flex-basis: 33.33%;
+    }
+}
+
+@keyframes marquee {
     0% {
         transform: translateX(0);
     }
-
     100% {
-        transform: translateX(calc(-250px * 6));
+        transform: translateX(-100%);
     }
 }
 
-.image-slider::before,
-.image-slider::after {
-    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-    content: '';
-    height: 100%;
-    width: 15%;
-    z-index: 2;
-    position: absolute;
+@media (max-width: 1024px) {
+    @keyframes marquee {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-125%);
+        }
+    }
 }
 
-.image-slider::before {
-    left: 0;
-    top: 0;
-}
-
-.image-slider::after {
-    right: 0;
-    top: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-}
-
-img:hover {
-    transform: translateZ(20px);
+@media (max-width: 768px) {
+    @keyframes marquee {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-186.65%);
+        }
+    }
 }
 .animated-button {
     position: relative;

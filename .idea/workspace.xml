@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ba85ad-2ad7-4b4c-8e93-560fc9146292" name="Changes" comment="updated colors and images" />
+    <list default="true" id="f9ba85ad-2ad7-4b4c-8e93-560fc9146292" name="Changes" comment="updated colors and images">
+      <change afterPath="$PROJECT_DIR$/assest/gallery/css.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/gallery/phython.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/gallery/webdevelopment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/css/animation/case04/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/css/animation/case04/city.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/css/animation/case04/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/css/animation/case04/road.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/css/animation/case04/sky.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/css/animation/case04/wheel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imageHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/imageHTML.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/My Protfolio Website/assiment/css/transition/case03",
+    "last_opened_file_path": "E:/My Protfolio Website/assiment/css/animation/case04",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -49,11 +63,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\My Protfolio Website\assiment\css\animation\case04" />
+      <recent name="E:\My Protfolio Website\assest\gallery" />
       <recent name="E:\My Protfolio Website\assiment\css\transition\case03" />
       <recent name="E:\My Protfolio Website\assiment\css\animation\case03" />
       <recent name="E:\My Protfolio Website\assest" />
-      <recent name="E:\My Protfolio Website" />
-      <recent name="E:\My Protfolio Website\assest\gallery" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\My Protfolio Website\assiment\css\transition\case03" />
@@ -75,7 +89,7 @@
       <workItem from="1694538453114" duration="25075000" />
       <workItem from="1694693441895" duration="18510000" />
       <workItem from="1695112008737" duration="3338000" />
-      <workItem from="1695266840059" duration="10691000" />
+      <workItem from="1695266840059" duration="19856000" />
     </task>
     <task id="LOCAL-00001" summary="updated bg,colors and images">
       <option name="closed" value="true" />
