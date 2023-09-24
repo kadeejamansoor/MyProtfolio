@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9ba85ad-2ad7-4b4c-8e93-560fc9146292" name="Changes" comment="updated colors and images">
-      <change afterPath="$PROJECT_DIR$/assest/gallery/css.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/gallery/phython.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/gallery/webdevelopment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/animation/case04/car.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/animation/case04/city.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/animation/case04/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/animation/case04/road.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/animation/case04/sky.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/animation/case04/wheel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/css/animation/case02/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/imageHTML.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assiment/css/animation/case02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assiment/css/animation/case02/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -89,7 +79,7 @@
       <workItem from="1694538453114" duration="25075000" />
       <workItem from="1694693441895" duration="18510000" />
       <workItem from="1695112008737" duration="3338000" />
-      <workItem from="1695266840059" duration="19856000" />
+      <workItem from="1695266840059" duration="24233000" />
     </task>
     <task id="LOCAL-00001" summary="updated bg,colors and images">
       <option name="closed" value="true" />
