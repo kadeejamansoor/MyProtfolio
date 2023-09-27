@@ -917,6 +917,7 @@ span {
     left: 0;
     right: 0;
     margin: auto;
+
 }
 
 /* When the button is hovered over, change the background to a pink-to-purple gradient, add a 3px solid border in a light purple color, and add a box shadow with a blur radius of 40px in a darker purple color. */
@@ -961,4 +962,85 @@ span {
 /* When the button is hovered over, the invisible element behind it expands to 100% width, creating a border around the button. */
 .animated-button:hover:after {
     width: 100%;
+}
+/*........................Projects......................*/
+.wrapper\.project {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.card {
+    width: 280px;
+    height: 360px;
+    background: #fff;
+    display: flex;
+    align-items: flex-end;
+    padding: 2rem 1rem;
+    position: relative;
+    transition: 0.5s all ease-in-out;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(13, 36, 63, 0.3), rgba(13, 36, 63, 1));
+    z-index: 2;
+    opacity: 0;
+    transition: 0.5s all;
+}
+.card:hover::before {
+    opacity: 1;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.card .info {
+    position: relative;
+    color: #fff;
+    z-index: 3;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+}
+.card:hover .info {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card .info h1 {
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.card .info p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.card .info .btn {
+    background: #fff;
+    padding: 0.5rem 1rem;
+    color: #000;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .4s ease-in-out;
+}
+.card .info .btn:hover {
+    background: #29ffff;
+    color: #fff;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
 }
