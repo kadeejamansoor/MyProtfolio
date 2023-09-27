@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9ba85ad-2ad7-4b4c-8e93-560fc9146292" name="Changes" comment="updated colors and images">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assest/gallery/download (1).jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +79,7 @@
       <workItem from="1695112008737" duration="3338000" />
       <workItem from="1695266840059" duration="25276000" />
       <workItem from="1695800847310" duration="6680000" />
-      <workItem from="1695825928913" duration="4892000" />
+      <workItem from="1695825928913" duration="5121000" />
     </task>
     <task id="LOCAL-00001" summary="updated bg,colors and images">
       <option name="closed" value="true" />
