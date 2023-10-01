@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Item</title>
+  <link rel="stylesheet" href="../boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Thogakade</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="pos.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="customer.html">Customer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="item.html">Item</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="order.html">Order Details</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <p style="font-size: 24px; color: #FFFFFF; background-color: #45AAF2; text-align: center;height: 60px;padding-top: 8px;margin-top: 20px">Item Details</p>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-6">
+            <form style="text-align: left">
+              <div class="mb-3">
+                <label for="exampleInputItemCode" class="form-label">Item Code</label>
+                <input type="email" class="form-control" id="exampleInputItemCode" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputItemName" class="form-label">Item Name</label>
+                <input type="email" class="form-control" id="exampleInputItemName" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPrice" class="form-label">Item Price</label>
+                <input type="email" class="form-control" id="exampleInputPrice" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputQty" class="form-label">Available Quantity</label>
+                <input type="email" class="form-control" id="exampleInputQty" aria-describedby="emailHelp">
+              </div>
+            </form>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-3">
+            <div style="display: flex; flex-direction: column">
+              <div style="height: 40px"></div>
+              <button id="addItem" type="submit" class="btn btn-primary" style="text-align: center; width: 120px; height: 40px;font-size: 20px">Add</button>
+              <div style="height: 40px"></div>
+              <button type="submit" class="btn btn-primary" style="text-align: center; width: 120px; height: 40px;font-size: 20px;background-color: green">Update</button>
+              <div style="height: 40px"></div>
+              <button type="submit" class="btn btn-primary" style="text-align: center; width: 120px; height: 40px;font-size: 20px;background-color: yellow; color: black">Search</button>
+              <div style="height: 40px"></div>
+              <button type="submit" class="btn btn-primary" style="text-align: center; width: 120px; height: 40px;font-size: 20px;background-color: #ff253a">Delete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container text-body">
+  <div class="row justify-content-center">
+    <table class="table">
+      <thead>
+      <tr style="background-color: #45AAF2; color: #FFFFFF">
+        <th scope="col">Item Code</th>
+        <th scope="col">Item Name</th>
+        <th scope="col">Price</th>
+        <th scope="col">Quantity</th>
+      </tr>
+      </thead>
+      <tbody id="tbl">
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+  document.getElementById("addItem").addEventListener("click",function () {
+    let table = document.getElementById("tbl");
+
+    let id = document.getElementById("exampleInputItemCode").value;
+    let name = document.getElementById("exampleInputItemName").value;
+    let price = document.getElementById("exampleInputPrice").value;
+    let qty = document.getElementById("exampleInputQty").value;
+
+    let tr = document.createElement("tr");
+
+    var col1 = document.createElement("td");
+    var col2 = document.createElement("td");
+    var col3 = document.createElement("td");
+    var col4 = document.createElement("td");
+
+    col1.textContent=id;
+    col2.textContent=name;
+    col3.textContent=price;
+    col4.textContent=qty;
+
+    tr.appendChild(col1);
+    tr.appendChild(col2);
+    tr.appendChild(col3);
+    tr.appendChild(col4);
+
+    table.appendChild(tr);
+  })
+</script>
+<script src="bootstraps/js/bootstrap.bundle.js"></script>
+</body>
+</html>

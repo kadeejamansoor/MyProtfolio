@@ -58,6 +58,25 @@ body{
     margin-left: 3.5rem;
     transition: 0.3s;
 }
+
+@media (width < 750px) {
+    .navbar a .checkbox {
+        display: block;
+    }
+}
+@media (max-width: 767px) {
+        .navbar a {
+        font-size: 1.2rem;
+        margin-left: 1rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar a {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+}
+
 .navbar a:hover,
 .navbar a.active{
     color:var(--main-color);
@@ -1044,3 +1063,22 @@ span {
     color: #fff;
     box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
 }
+
+    @media (width < 750px) {
+        .navbar a .checkbox {
+            display: block;
+        }
+    }
+    @media (max-width: 767px) {
+        .navbar a {
+            font-size: 1.2rem;
+            margin-left: 1rem;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .navbar a {
+            font-size: 1.5rem;
+            margin-left: 2rem;
+        }
+    }
+

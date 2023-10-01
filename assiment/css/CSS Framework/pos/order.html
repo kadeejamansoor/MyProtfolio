@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order</title>
+  <link rel="stylesheet" href="../boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.css">
+
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Kadee's Shop</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="pos.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="customer.html">Customer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="item.html">Item</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="order.html">Order Details</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container text-center">
+  <div class="row">
+    <div class="col align-self-center">
+      <p style="font-size: 24px; color: #FFFFFF; background-color: #45AAF2; text-align: center;height: 60px;padding-top: 8px;margin-top: 20px">Order Details</p>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-6">
+            <form style="text-align: left">
+              <div class="mb-3">
+                <label for="exampleInputOrderId" class="form-label">Order ID</label>
+                <input type="email" class="form-control" id="exampleInputOrderId" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputDate" class="form-label">Date</label>
+                <input type="email" class="form-control" id="exampleInputDate" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputQuantity" class="form-label">Quantity</label>
+                <input type="email" class="form-control" id="exampleInputQuantity" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputTotal" class="form-label">Total</label>
+                <input type="email" class="form-control" id="exampleInputTotal" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputCash" class="form-label">Cash</label>
+                <input type="email" class="form-control" id="exampleInputCash" aria-describedby="emailHelp">
+              </div>
+            </form>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-3">
+            <div style="display: flex; flex-direction: column">
+              <div style="height: 100px"></div>
+              <button type="submit" class="btn btn-primary" style="text-align: center; width: 120px; height: 50px;font-size: 20px">search</button>
+              <div style="height: 50px"></div>
+              <button type="submit" class="btn btn-primary" style="text-align: center; width: 120px; height: 50px;font-size: 20px;background-color: green">Update</button>
+              <div style="height: 50px"></div>
+              <button type="submit" class="btn btn-primary" style="text-align: center; width: 120px; height: 50px;font-size: 20px;background-color: #ff253a">Delete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container text-body">
+  <div class="row justify-content-center">
+    <table class="table">
+      <thead>
+      <tr style="background-color: #45AAF2; color: #FFFFFF">
+        <th scope="col">Order ID</th>
+        <th scope="col">Date</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Total</th>
+        <th scope="col">Cash</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<script src="../boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+</body>
+</html>
