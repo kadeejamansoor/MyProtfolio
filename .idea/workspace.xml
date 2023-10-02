@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9ba85ad-2ad7-4b4c-8e93-560fc9146292" name="Changes" comment="updated colors and images">
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/pos/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/pos/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assiment/css/CSS Framework/pos/Customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/pos/Customer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assiment/css/CSS Framework/pos/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/pos/item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assiment/css/CSS Framework/pos/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/pos/order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assiment/css/CSS Framework/pos/pos.html" beforeDir="false" afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/pos/pos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assiment/css/CSS Framework/pos/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/pos/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +81,7 @@
       <workItem from="1695112008737" duration="3338000" />
       <workItem from="1695266840059" duration="25276000" />
       <workItem from="1695800847310" duration="6680000" />
-      <workItem from="1695825928913" duration="24578000" />
+      <workItem from="1695825928913" duration="26150000" />
     </task>
     <task id="LOCAL-00001" summary="updated bg,colors and images">
       <option name="closed" value="true" />
