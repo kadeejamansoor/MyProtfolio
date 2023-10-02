@@ -2,132 +2,220 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="Viewport" content="Width=device-width, initial-scale=1">
-    <title>Bootstrap</title>
-    <link rel="stylesheet" href="../boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.css">
+    <title>Order Form</title>
 
+    <link rel="stylesheet" href="../boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Kadee's Shop</a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="pos.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="customer.html">Customer</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="item.html">Item</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="order.html">Order Details</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<div class="container text-body">
-    <div class="row mt-4">
-        <div class="col-sm-6 col-12">
-            <p style="font-size: 24px; color: #FFFFFF; background-color: #45AAF2; text-align: center; height: 50px; padding-top: 8px">Customer Details</p>
-            <form>
-                <div class="mb-3">
-                    <label for="exampleInputCusId" class="form-label">Customer ID</label>
-                    <input type="email" class="form-control" id="exampleInputCusId" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputName" class="form-label">Customer Name</label>
-                    <input type="email" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputAddress" class="form-label">Customer Address</label>
-                    <input type="email" class="form-control" id="exampleInputAddress" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputContact" class="form-label">Customer Contact</label>
-                    <input type="email" class="form-control" id="exampleInputContact" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputSalary" class="form-label">Customer Salary</label>
-                    <input type="email" class="form-control" id="exampleInputSalary" aria-describedby="emailHelp">
-                </div>
-                <div style="height: 35px"></div>
-                <div class="mb-3">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="color: white; background-color: blue">
-                                Item Code
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
 
-            </form>
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow p-3 mb-2 bg-body-tertiary rounded">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img alt="Logo" class="d-inline-block align-text-center" height="32" src="../assets/IMG/logo.webp"
+                     width="32">  <span class="text-danger">WEBPOS</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="customer.html">Customer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="item.html">Items</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">PlaceOrder</a>
+                    </li>
+                </ul>
+                <div class="d-grid gap-3 d-md-flex justify-content-md-end">
+                    <button type="button" class="btn btn-outline-primary">Sign Up</button>
+                    <button type="button" class="btn btn-outline-danger">Log Out</button>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-6 col-12">
-            <p style="font-size: 24px; color: #FFFFFF; background-color: #45AAF2; text-align: center; height: 50px; padding-top: 8px" data-bs-theme="dark">Order Details</p>
-            <form>
-                <div class="mb-3">
-                    <label for="exampleInputOrderId" class="form-label">Order ID</label>
-                    <input type="email" class="form-control" id="exampleInputOrderId" aria-describedby="emailHelp">
+    </nav>
+</header>
+
+<main class="container-fluid p-3">
+
+    <!--Order details-->
+    <section class="row bg-secondary-subtle p-4 justify-content-evenly">
+
+        <!--invoice detail-->
+        <div class="col-4">
+            <h3 class="fw-bold text-black text-center bg-info p-2 rounded-3"> Invoice Details</h3>
+            <div class="card">
+                <div class="card-body">
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-6">
+                                <label>Order ID :</label>
+                                <input class="form-control" id="orderId" type="text">
+                            </div>
+                            <div class="col-6">
+                                <label>Date :</label>
+                                <input class="form-control" id="date" type="date">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-6">
+                                <label>Customer :</label>
+                                <select class="form-select" id="cusId">
+                                    <option selected>- Name -</option>
+                                </select>
+                            </div>
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label for="nic">NIC</label>
+                                    <input class="form-control" id="nic">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-6">
+                                <label>Name :</label>
+                                <input class="form-control" id="cusName" type="text">
+                            </div>
+                            <div class="col-6">
+                                <label>Address :</label>
+                                <input class="form-control" id="address" type="text">
+                            </div>
+                            <div class="col-12 mt-3">
+                                <label>Contact :</label>
+                                <input class="form-control" id="cusContact" type="text">
+                            </div>
+                        </div>
+                    </form>
                 </div>
-                <div class="mb-3">
-                    <label for="exampleInputQty" class="form-label">Quantity</label>
-                    <input type="email" class="form-control" id="exampleInputQty" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputDate" class="form-label">Date</label>
-                    <input type="email" class="form-control" id="exampleInputDate" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputTotalPrice" class="form-label">Total</label>
-                    <input type="email" class="form-control" id="exampleInputTotalPrice" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputCash" class="form-label">Cash</label>
-                    <input type="email" class="form-control" id="exampleInputCash" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputBalance" class="form-label">Balance</label>
-                    <input type="email" class="form-control" id="exampleInputBalance" aria-describedby="emailHelp">
-                </div>
-                <button type="submit" class="btn btn-primary" style="text-align: center; background-color: #ff253a; height: 40px; width: 150px;position: relative; left: 200px">Place Order</button>
-            </form>
+            </div>
         </div>
-    </div>
-</div>
-<div class="container text-body mt-3">
-    <div class="row justify-content-center">
-        <div class="col-12" style="width: 1500px">
-            <table class="table">
-                <thead>
-                <tr style="background-color: #45AAF2; color: #FFFFFF">
-                    <th scope="col">Item Code</th>
-                    <th scope="col">Item Name</th>
-                    <th scope="col">Price</th>
-                    <th scope="col">Quantity</th>
+
+        <!--Item details-->
+        <div class="col-4">
+            <h3 class="fw-bold text-black text-center bg-info p-2 rounded-3"> Item Details</h3>
+            <div class="card">
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-6">
+                            <label for="itemCode">Item Code</label>
+                            <select class="form-select" aria-label="Default select example" id="itemCode">
+                                <option selected>-Item Code-</option>
+                            </select>
+                        </div>
+                        <div class="col-6">
+                            <form>
+                                <label for="itemName" class="form-label">Item Name</label>
+                                <input type="text" class="form-control" id="itemName">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-6">
+                            <form>
+                                <label for="unitPrice" class="form-label">Unit Price</label>
+                                <input type="text" class="form-control" id="unitPrice">
+                            </form>
+                        </div>
+                        <div class="col-6">
+                            <form>
+                                <label for="qtyOnHand" class="form-label">Qty On</label>
+                                <input type="text" class="form-control" id="qtyOnHand">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-6">
+                            <form>
+                                <label for="buyQrt" class="form-label">Order Qty</label>
+                                <input type="text" class="form-control" id="buyQrt">
+                            </form>
+                        </div>
+                        <div class="col-6 mt-auto">
+                            <button type="button" class="btn btn-danger">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Purchase Detail-->
+        <div class="col-3">
+            <h3 class="fw-bold text-black text-center bg-info p-2 rounded-3"> Payment Details</h3>
+            <div class="card">
+                <div class="card-body">
+
+                    <div class="row mb-3">
+                        <div class="col-6">
+                            <form>
+                                <label for="total" class="form-label">Total</label>
+                                <input type="text" class="form-control" id="total">
+                            </form>
+                        </div>
+                        <div class="col-6">
+                            <form>
+                                <label for="subTotal" class="form-label">Sub Total</label>
+                                <input type="text" class="form-control" id="subTotal">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-6">
+                            <form>
+                                <label for="discount" class="form-label">Discount</label>
+                                <input type="number" class="form-control" id="discount">
+                            </form>
+                        </div>
+                        <div class="col-6">
+                            <form>
+                                <label for="cash" class="form-label">Cash</label>
+                                <input type="text" class="form-control" id="cash">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-6">
+                            <form>
+                                <label for="Balance" class="form-label">Balance</label>
+                                <input type="text" class="form-control" id="Balance">
+                            </form>
+                        </div>
+                        <div class="col-6">
+                            <button type="button" class="btn btn-danger mt-4">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--detail table-->
+    <section class="row  bg-secondary-subtle p-4 justify-content-around ">
+        <div class="col-10">
+            <table class="table table-bordered text-white text-center">
+                <thead class="bg-primary">
+                <tr>
+                    <th>Item Code</th>
+                    <th>Item Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
                 </tr>
                 </thead>
-                <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                </tr>
+                <tbody class="bg-light text-dark" id="orderTable">
+
                 </tbody>
             </table>
         </div>
-    </div>
-</div>
-<script src="../boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+    </section>
+
+</main>
+
 </body>
 </html>
