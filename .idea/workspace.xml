@@ -5,57 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9ba85ad-2ad7-4b4c-8e93-560fc9146292" name="Changes" comment="updated colors and images">
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/pos/Customer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/pos/item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/pos/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/pos/pos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +79,7 @@
       <workItem from="1695112008737" duration="3338000" />
       <workItem from="1695266840059" duration="25276000" />
       <workItem from="1695800847310" duration="6680000" />
-      <workItem from="1695825928913" duration="21186000" />
+      <workItem from="1695825928913" duration="22854000" />
     </task>
     <task id="LOCAL-00001" summary="updated bg,colors and images">
       <option name="closed" value="true" />
