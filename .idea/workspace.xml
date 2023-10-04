@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9ba85ad-2ad7-4b4c-8e93-560fc9146292" name="Changes" comment="updated colors and images">
-      <change afterPath="$PROJECT_DIR$/assiment/js/Cal/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/Knight/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/Knight/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/Que/index02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/desctop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/iwatch.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/laptop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/Cal/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/Cal/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/Cal/util.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assiment/js/Cal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assiment/js/Cal/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -90,7 +84,7 @@
       <workItem from="1695112008737" duration="3338000" />
       <workItem from="1695266840059" duration="25276000" />
       <workItem from="1695800847310" duration="6680000" />
-      <workItem from="1695825928913" duration="33692000" />
+      <workItem from="1695825928913" duration="34484000" />
     </task>
     <task id="LOCAL-00001" summary="updated bg,colors and images">
       <option name="closed" value="true" />
