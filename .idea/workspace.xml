@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9ba85ad-2ad7-4b4c-8e93-560fc9146292" name="Changes" comment="updated colors and images">
+      <change afterPath="$PROJECT_DIR$/assiment/js/Cal/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/Knight/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/Knight/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/Que/index02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/desctop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/iwatch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/laptop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assiment/css/CSS Framework/pos/Customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/pos/Customer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assiment/css/CSS Framework/pos/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/pos/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -41,7 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/My Protfolio Website/assiment/css/CSS Framework/pos",
+    "last_opened_file_path": "E:/My Protfolio Website/assiment/js/SPA",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -53,11 +62,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\My Protfolio Website\assiment\js\SPA" />
       <recent name="E:\My Protfolio Website\assiment\css\CSS Framework\pos" />
       <recent name="E:\My Protfolio Website\assiment\css\CSS Framework\boostrap" />
       <recent name="E:\My Protfolio Website\assest\gallery" />
       <recent name="E:\My Protfolio Website\assiment\css\animation\case04" />
-      <recent name="E:\My Protfolio Website\assiment\css\transition\case03" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\My Protfolio Website\assiment\css\transition\case03" />
@@ -81,7 +90,7 @@
       <workItem from="1695112008737" duration="3338000" />
       <workItem from="1695266840059" duration="25276000" />
       <workItem from="1695800847310" duration="6680000" />
-      <workItem from="1695825928913" duration="26150000" />
+      <workItem from="1695825928913" duration="33692000" />
     </task>
     <task id="LOCAL-00001" summary="updated bg,colors and images">
       <option name="closed" value="true" />
