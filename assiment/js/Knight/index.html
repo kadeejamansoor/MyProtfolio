@@ -1,40 +1,114 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Knight-Rider</title>
+    <title>Knight_Rider</title>
     <link rel="stylesheet" href="../../css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.css">
+    <style>
+        body {
+            background-color: white;
+        }
 
+        #container {
+            display: flex;
+            height: 50px;
+            border: 2px solid black;
+        }
+
+        #outerContainer > #container > div {
+            width: 60%;
+            height: 40px;
+            border-radius: 8px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px, rgba(0, 0, 0, 0.3) 0 18px 36px -18px !important;
+
+            border: 1px solid white;
+        }
+    </style>
 
 </head>
-<body class="bg-black">
-<div class="container  position-absolute start-50 translate-middle-x pe-0" style="width: 25%; height: 5vw; top: 5vw; ">
-    <div class="row  w-100 h-100">
-        <div class="col-5 order"><p class="fs-3 text-white  p-0" style="">Speed :</p></div>
-        <div  class="col-4"><p id="speed" class="fs-3 text-white  p-0" style="">75%</p></div>
+<body>
+
+<div class="container-fluid">
+    <div class="row mt-5">
+        <div class="col-12">
+            <h1 class="text-center text-white">Knight-Rider</h1>
+        </div>
+    </div>
+    <div class="row mt-5 " id="outerContainer">
+        <div class="col-12" id="container">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="row justify-content-center mt-5">
+        <div class="col-3 d-flex justify-content-around">
+            <button class="btn btn-success pl-5 pr-5" id="btnStart">Start</button>
+            <button class="btn btn-danger pl-5 pr-5" id="btnStop">Stop</button>
+        </div>
     </div>
 </div>
 
 
+<script src="jq.js"></script>
+<script>
 
+    let initArray = [];
+    let leftColors = ['white', 'white', 'white', 'white', 'white', 'white', '#d3c5c5', '#be7474', '#cd4a4a', '#b83030', '#c52525', '#dc1e1e'];
+    let rightColors = ['white', 'white', 'white', 'white', 'white', 'white', '#dc1e1e', '#c52525', '#b83030', '#cd4a4a', '#be7474', '#d3c5c5'];
+    let startAnimation;
+    let firstValue;
+    let lastColor;
+    let count = 0;
 
-<div class="container-fluid  position-absolute top-50 start-50 translate-middle p-0" style="width: 80vw; height: 15vw;">
-    <div class="row bg-white w-100 m-0 position-absolute top-50 translate-middle-y" style="height: 40%; ">
-        <div class="col-2" style="background-color: firebrick"></div>
-        <div class="col-2" ></div>
-        <div class="col-2" ></div>
-        <div class="col-2" ></div>
-        <div class="col-2" ></div>
-        <div class="col-2" ></div>
-    </div>
-</div>
+    let track = new Audio('theme.mp3');
 
-<input type="range" class="form-range w-50 h-25 start-50 translate-middle" min="10 " max="600"  value="150" id="customRange" style="position: absolute; bottom: 5vw;  ">
+    function animateRight() {
+        firstValue = initArray.shift();
+        initArray.push(firstValue);
+    }
 
-<script src="css/bootstrap/js/bootstrap.js"></script>
-<script src="script.js"></script>
+    function animateLeft() {
+        lastColor = initArray.pop();
+        initArray.unshift(lastColor);
+    }
+
+    function animate() {
+        count++;
+        if (count <= leftColors.length) {
+            initArray = leftColors;
+            animateLeft();
+        } else {
+            if (count >= (leftColors.length * 2)) {
+                count = 0;
+            }
+            initArray = rightColors;
+            animateRight();
+        }
+    }
+
+    function renderKnightRider() {
+        $("#container").empty();
+        for (let i = 0; i < (initArray.length) / 2; i++) {
+            $("#container").append(`<div style="background-color: ${initArray[i]}"></div>`)
+        }
+        animate();
+    }
+
+    $('#btnStart').on('click', function () {
+        clearInterval(startAnimation);
+        track.play();
+        startAnimation = setInterval(renderKnightRider, 70);
+    });
+
+    $('#btnStop').on('click', function () {
+        track.pause();
+        clearInterval(startAnimation);
+    });
+
+</script>
 </body>
 </html>

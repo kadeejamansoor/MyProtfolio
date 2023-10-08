@@ -5,54 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9ba85ad-2ad7-4b4c-8e93-560fc9146292" name="Changes" comment="updated colors and images">
-      <change afterPath="$PROJECT_DIR$/assiment/css/CSS Framework/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/jquery-3.6.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/assets/js/jquery-3.6.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/controller/controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/SPA/db/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/Knight/jq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/Knight/theme.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My Protfolio Website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/My Protfolio Website.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assiment/js/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assiment/js/SPA/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assiment/js/Knight/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assiment/js/Knight/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assiment/js/Knight/script.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/My Protfolio Website/assiment/js/SPA",
+    "last_opened_file_path": "E:/My Protfolio Website/assiment/js/Knight",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -127,7 +84,9 @@
       <workItem from="1695112008737" duration="3338000" />
       <workItem from="1695266840059" duration="25276000" />
       <workItem from="1695800847310" duration="6680000" />
-      <workItem from="1695825928913" duration="40344000" />
+      <workItem from="1695825928913" duration="45095000" />
+      <workItem from="1696648775761" duration="2603000" />
+      <workItem from="1696762694707" duration="1137000" />
     </task>
     <task id="LOCAL-00001" summary="updated bg,colors and images">
       <option name="closed" value="true" />
