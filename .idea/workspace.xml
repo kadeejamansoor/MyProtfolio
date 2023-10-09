@@ -5,11 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9ba85ad-2ad7-4b4c-8e93-560fc9146292" name="Changes" comment="updated colors and images">
-      <change afterPath="$PROJECT_DIR$/assiment/js/Knight/jq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/Knight/theme.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/Controller/CustomerController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/Controller/DashboardController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/Controller/ItemController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/Controller/OrderViewsController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/Controller/PurchaseOrderController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/boostrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/jquery-3.6.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/db/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/model/customer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/model/item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/model/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/model/orderDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/util/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/InMemoryPOS/util/validation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assiment/js/Knight/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assiment/js/Knight/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assiment/js/Knight/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +75,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -44,7 +100,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/My Protfolio Website/assiment/js/Knight",
+    "last_opened_file_path": "E:/My Protfolio Website/assiment/js/InMemoryPOS",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -56,11 +112,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\My Protfolio Website\assiment\js\InMemoryPOS" />
+      <recent name="E:\My Protfolio Website\assiment\js\InMemoryPOS\Controller" />
+      <recent name="E:\My Protfolio Website\assiment\js\InMemoryPOS\boostrap" />
+      <recent name="E:\My Protfolio Website\assiment\js\Knight" />
       <recent name="E:\My Protfolio Website\assiment\js\SPA" />
-      <recent name="E:\My Protfolio Website\assiment\css\CSS Framework\boostrap\bootstrap-5.3.2-dist\bootstrap-5.3.2-dist\js" />
-      <recent name="E:\My Protfolio Website\assiment\css\CSS Framework\pos" />
-      <recent name="E:\My Protfolio Website\assiment\css\CSS Framework\boostrap" />
-      <recent name="E:\My Protfolio Website\assest\gallery" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\My Protfolio Website\assiment\css\transition\case03" />
@@ -86,7 +142,7 @@
       <workItem from="1695800847310" duration="6680000" />
       <workItem from="1695825928913" duration="45095000" />
       <workItem from="1696648775761" duration="2603000" />
-      <workItem from="1696762694707" duration="1137000" />
+      <workItem from="1696762694707" duration="8271000" />
     </task>
     <task id="LOCAL-00001" summary="updated bg,colors and images">
       <option name="closed" value="true" />
