@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9ba85ad-2ad7-4b4c-8e93-560fc9146292" name="Changes" comment="updated colors and images">
-      <change afterPath="$PROJECT_DIR$/assest/gallery/ludo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/gallery/snake.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/Que/assets/A.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/Que/assets/B.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/Que/assets/C.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/Que/assets/D.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/Que/assets/E.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/Que/assets/F.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/Que/assets/house.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assiment/js/Que/index01.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games.html" beforeDir="false" afterPath="$PROJECT_DIR$/Games.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assiment/js/Que/index02.html" beforeDir="false" afterPath="$PROJECT_DIR$/assiment/js/Que/index02.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +85,7 @@
       <workItem from="1696648775761" duration="2603000" />
       <workItem from="1696762694707" duration="16591000" />
       <workItem from="1696921892909" duration="7528000" />
-      <workItem from="1697128040985" duration="5019000" />
+      <workItem from="1697128040985" duration="6057000" />
     </task>
     <task id="LOCAL-00001" summary="updated bg,colors and images">
       <option name="closed" value="true" />
