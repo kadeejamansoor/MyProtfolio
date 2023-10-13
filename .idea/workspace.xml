@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9ba85ad-2ad7-4b4c-8e93-560fc9146292" name="Changes" comment="updated colors and images">
+      <change afterPath="$PROJECT_DIR$/assest/gallery/ludo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/gallery/snake.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/Que/assets/A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/Que/assets/B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/Que/assets/C.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/Que/assets/D.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/Que/assets/E.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/Que/assets/F.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/Que/assets/house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assiment/js/Que/index01.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games.html" beforeDir="false" afterPath="$PROJECT_DIR$/Games.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assiment/js/Que/index02.html" beforeDir="false" afterPath="$PROJECT_DIR$/assiment/js/Que/index02.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,30 +46,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/My Protfolio Website/assest/gallery&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/My Protfolio Website/assiment/js/Que",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\My Protfolio Website\assiment\js\Que" />
       <recent name="E:\My Protfolio Website\assest\gallery" />
       <recent name="E:\My Protfolio Website\assiment\js" />
       <recent name="E:\My Protfolio Website\assiment\js\InMemoryPOS" />
       <recent name="E:\My Protfolio Website\assiment\js\InMemoryPOS\Controller" />
-      <recent name="E:\My Protfolio Website\assiment\js\InMemoryPOS\boostrap" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\My Protfolio Website\assiment\css\transition\case03" />
@@ -85,7 +96,8 @@
       <workItem from="1695825928913" duration="45095000" />
       <workItem from="1696648775761" duration="2603000" />
       <workItem from="1696762694707" duration="16591000" />
-      <workItem from="1696921892909" duration="5453000" />
+      <workItem from="1696921892909" duration="7528000" />
+      <workItem from="1697128040985" duration="5019000" />
     </task>
     <task id="LOCAL-00001" summary="updated bg,colors and images">
       <option name="closed" value="true" />
